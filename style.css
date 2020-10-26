@@ -12,13 +12,13 @@ nav {
     background-color: #313030;
     margin-left: 10%;
     margin-right: 10%;
-/*     margin-top: 5vh; */
+
     height: 13vh;
 }
-ul {
+nav ul {
     height: 100%;
 }
-li {
+nav li {
     display: inline-block;
     height: calc(100% - 30px);
     color:white;
@@ -32,11 +32,11 @@ li {
     padding-right: 25px;
     font-weight: 38px;
 }
-ul :hover {
+nav ul :hover {
     background-color: #ff3f40;
     transition: .3s;
 }
-ul :first-child {
+nav ul :first-child {
     margin-left:28%;
 }
 
@@ -133,12 +133,15 @@ iframe {
 
 .ll {
     float:left;
-    margin-right:20px;
 }
 .rr {
     float:right;
-    margin-right:20px;
 }
+
+.ff {
+    margin-right: 40px;
+}
+
 .end {
     border-top: 3px double #ececec;
     width:80%;
@@ -159,4 +162,58 @@ iframe {
 }
 .th_info h1 {
     font-size: 42px;
+    margin-bottom: 20px;
+}
+input[type="radio"] {
+    display:none;   
+}
+
+.cat {
+    width: 80vw;
+    text-align: center;    
+    padding-left: 100px;
+    font-weight: 600;
+}
+.three hr {
+    border-top: 4px solid #ff3f40;
+    width:20%;
+    margin-left:40%;
+    margin-top: 20px;
+    margin-bottom: 80px;
+
+}
+input[type="radio"]:checked + label {
+    color: #ff3f40;
+    transition: .3s;
+}
+.cat label {
+    margin-left:80px;
+    font-size: 16px;
+}
+.right {
+    float:right;
+    width:50%;
+}
+.left {
+    float:left;
+    width:50%;
+}
+.r-l {
+    float:left
+}
+.r-r {
+    float:right
+}
+.l-r {
+    float:right
+}
+.l-l {
+    float:left;
+}
+.photos img {
+    width:300px;
+}
+.photos {
+    margin-right:10vw;
+    margin-left:10vw;
 }
