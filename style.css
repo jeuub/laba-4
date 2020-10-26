@@ -44,6 +44,7 @@ ul :first-child {
     margin-left: 10%;
     margin-right: 10%;
     padding-top: 48px;
+    height: 80%;
 }
 .oso_first {
     font-size: 36px;
@@ -77,4 +78,85 @@ iframe {
     position: relative;
     right:calc(280 + 10vw);
     top: -200px;
+}
+.dyk {
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-top: 5%;
+}
+.dyk_left {
+    width: 50%;
+    float:left;
+}
+.dyk h1 {
+    font-size:32px;
+    font-weight: 500;
+    margin-top:20px;
+}
+.dyk_left p {
+    font-size:17px;
+    margin-top: 40px;
+    padding-top:20px;
+    width:80%;
+}
+.lm {
+    width:140px;
+    border: 3px solid #ff3f40;
+    border-radius: 5px;
+    color: #ff3f40;
+    height: 40px;
+    font-size: 17px;
+    font-weight: 500;
+    background-color: #fff;
+    margin-top: 60px;
+}
+.dyk_right {
+    float:right;
+    width: 50%;
+}
+.xd h2 {
+    color: #4c4c4c;
+    font-weight: 600;
+    font-size: 24px;
+    padding-top:25px;
+}
+.xd p {
+    padding-top:10px;
+    width: 15vw;
+    margin-bottom:45px;
+}
+.xd {
+    width:45%;
+
+}
+
+
+.ll {
+    float:left;
+    margin-right:20px;
+}
+.rr {
+    float:right;
+    margin-right:20px;
+}
+.end {
+    border-top: 3px double #ececec;
+    width:80%;
+    margin-left:10%;
+    text-align: center;
+}
+.three {
+    height: 100vh;
+    margin-top:100vh;
+}
+.th_info {
+    text-align: center;
+    margin-top:80px;
+
+    letter-spacing: .8px;
+    color: #4c4c4c;
+
+}
+.th_info h1 {
+    font-size: 42px;
 }
