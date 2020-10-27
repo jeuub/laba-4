@@ -79,6 +79,7 @@ nav ul :first-child {
 .contact {
     width: 160px;
     height: 40px;
+    padding-top: 20px;
     color: white;
     background-color: #ff3f40;
     border-radius: 5px;
@@ -86,6 +87,10 @@ nav ul :first-child {
     border: none;
     margin-top: 80px;
     float: left;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
 }
 
 .oso_second {
@@ -511,4 +516,7 @@ footer {
 }
 .link img {
     padding-left:15px
+}
+button {
+    cursor: pointer;
 }
