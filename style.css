@@ -3,7 +3,13 @@
     margin: 0;
     font-family: sans-serif;
 }
-
+input:focus {
+    border:none;
+    outline: none;
+}
+p {
+    word-spacing: 5px;
+}
 .first {
     background-color: #f6f2f2;
     height: 75vh;
@@ -173,7 +179,6 @@ iframe {
 
 .three {
     height: 100vh;
-    margin-top: 100vh;
 }
 
 .th_info {
@@ -203,7 +208,7 @@ input[type="radio"] {
 }
 
 .three hr {
-    border-top: 4px solid #ff3f40;
+    border-top: 2px solid #ff3f40;
     width: 20%;
     margin-left: 40%;
     margin-top: 20px;
@@ -375,4 +380,135 @@ input[type="radio"]:checked+label {
     margin-left: 10px;
     padding-left: 20px;
     padding-right: 20px;
+    font-size: 14px;
+    width:160px;
+}
+
+.redbut:focus {
+    background-color: #00e457;
+    outline: none;
+    border:none;
+    font-size: 16px;
+    font-weight: 600;
+    transition: .4s;
+}
+
+.forgot {
+    margin-top:600px;
+    border-top: 2px solid #ececec;
+    width: 80%;
+    margin-left:10vw;
+}
+.git {
+    padding-top:60px;
+    margin-left:10vw;
+    margin-right:10vw;
+    margin-bottom:10vw;
+}
+.buttons {
+    padding-bottom: 120px;
+}
+.git h1 {
+    font-size: 42px;
+    color: #4c4c4c;
+}
+.git p {
+    width: 41vw;
+    margin-top:40px;
+    color: #6f6d6d;
+    margin-bottom:40px;
+}
+.git hr {
+    border-top: 2px solid #ff3f40;
+    width:10vw;
+    margin-bottom: 40px;
+
+}
+.ssanina {
+     width: 17.5vw;
+    padding-left:2vw;
+    border-radius: 7px;
+    padding-top:22px;
+    padding-bottom:16px;
+    font-size: 16px;
+    background-color: #e5e5e5;
+    border:none;
+    color: #4c4c4c;
+}
+.tymh {
+    width:38vw;
+    margin-top: 40px;
+    height:250px;
+    padding-left: 2vw;
+    background-color: #e5e5e5;
+    font-size: 16px;
+    border-radius: 7px;
+    border: none;
+    color: #4c4c4c;
+}
+
+.senmes {
+    width: 40vw;
+    text-align: center;
+    color: white;
+    background-color: #ff3f40;
+    font-size: 16px;
+    border-radius: 7px;
+    border:none;
+    margin-top:40px;
+    height: 65px;
+}
+.senmes:active {
+outline: none;
+border:none;    
+}
+.senmes:focus {
+    outline: none;
+    border:none;
+    font-size: 18px;
+    font-weight: 600;    
+    transition: .4s;
+    background-color: #00e457
+}
+.continf {
+    float:right;
+    background-color: #313030;
+    width: 30vw;
+    height: 305px;
+    padding-top: 145px;
+    padding-left: 80px;
+    color: white;
+}
+.message {
+    width:41vw;
+    float:left;
+}
+.prikol {
+    width:30vw;
+}
+.continf p {
+    color:#d5d5d5;
+}
+body {
+    overflow-x: hidden;
+}
+footer {
+    margin-top:70vh;
+    padding-right:10vw;
+    padding-left:10vw;
+    background-color: #313030;
+    height: 100px;
+}
+.copy {
+    padding-top:50px;
+    color: #ececec;
+    font-size: 12px;
+    float:left;
+}
+.link {
+    float:right;
+    padding-top: 40px;    
+}
+.link img {
+    padding-left:15px
 }
