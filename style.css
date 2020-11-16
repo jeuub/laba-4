@@ -3,6 +3,10 @@
     margin: 0;
     font-family: sans-serif;
 }
+p {
+    line-height: 22px;
+    opacity: .7;
+}
 input:focus {
     border:none;
     outline: none;
@@ -40,7 +44,6 @@ nav li {
     padding-top: 30px;
     padding-left: 25px;
     padding-right: 25px;
-    font-weight: 38px;
 }
 
 nav ul :hover {
@@ -70,7 +73,7 @@ nav ul :first-child {
 
 .oso_first p {
     font-size: 16px;
-    width: 90;
+    width: 420px;
     padding-top: 20px;
     color: #6f6d6d;
     margin: 0;
@@ -99,7 +102,6 @@ nav ul :first-child {
 
 iframe {
     position: relative;
-    right: calc(280 + 10vw);
     top: -200px;
 }
 
@@ -142,38 +144,41 @@ iframe {
 .dyk_right {
     float: right;
     width: 50%;
+    height: 450px;
 }
+.mu {
+    height: 200px;
+    width:100%;
+    margin-bottom: 70px;
+}
+.managment {
+    width: calc( 50% - 15px);
+    line-height: 30px;
+    float:left;
+    margin-right: 30px;
 
-.xd h2 {
-    color: #4c4c4c;
-    font-weight: 600;
+}
+.dyk_right h2 {
     font-size: 24px;
-    padding-top: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.ui {
+    width:50%;
+    float:left;
+}
+.ui {
+    width: calc( 50% - 15px);
+    line-height: 30px;
+    float:left;
+
+}
+.la {
+    height: 200px;
+    width:100%;
 }
 
-.xd p {
-    padding-top: 10px;
-    width: 15vw;
-    margin-bottom: 45px;
-}
 
-.xd {
-    width: 45%;
-
-}
-
-
-.ll {
-    float: left;
-}
-
-.rr {
-    float: right;
-}
-
-.ff {
-    margin-right: 40px;
-}
 
 .end {
     border-top: 3px double #ececec;
@@ -237,34 +242,24 @@ input[type="radio"]:checked+label {
     width: 50%;
 }
 
-.left {
-    float: left;
-    width: 50%;
+.zagl {
+    width:280px;
 }
 
-.r-l {
-    float: left
-}
+.photos ul {
+    list-style-type: none;
 
-.r-r {
-    float: right
 }
-
-.l-r {
-    float: right
-}
-
-.l-l {
-    float: left;
-}
-
-.photos img {
-    width: 300px;
+.photos ul li {
+    float:left;
+    margin-right:20px;
 }
 
 .photos {
     margin-right: 10vw;
-    margin-left: 10vw;
+    margin-left:164px;
+    height: 600px;
+    width:80vw;
 }
 .team {
     margin-right:10vw;
@@ -399,7 +394,7 @@ input[type="radio"]:checked+label {
 }
 
 .forgot {
-    margin-top:600px;
+    margin-top:700px;
     border-top: 2px solid #ececec;
     width: 80%;
     margin-left:10vw;
