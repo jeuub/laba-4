@@ -64,7 +64,9 @@ nav ul :first-child {
 
 .oso_first {
     font-size: 36px;
-    width: 50%;
+    width: 700px;
+    height: 600px;
+    float: left;
 }
 
 .oso_first h1 {
@@ -96,13 +98,8 @@ nav ul :first-child {
     font-weight: 600;
 }
 
-.oso_second {
-    float: right;
-}
-
 iframe {
     position: relative;
-    top: -200px;
 }
 
 .dyk {
@@ -516,8 +513,11 @@ footer {
 button {
     cursor: pointer;
 }
-.video-prikol {
+.oso_second {
     -webkit-box-shadow: -12px 13px 28px 0px rgba(0,0,0,0.44);
     -moz-box-shadow: -12px 13px 28px 0px rgba(0,0,0,0.44);
     box-shadow: -12px 13px 28px 0px rgba(0,0,0,0.44);
+    float:right;
+    height: 320px;
+
 }
