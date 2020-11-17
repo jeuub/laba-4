@@ -244,6 +244,7 @@ input[type="radio"]:checked+label {
 
 .zagl {
     width:280px;
+    height: 280px;
 }
 
 .photos ul {
@@ -514,4 +515,9 @@ footer {
 }
 button {
     cursor: pointer;
+}
+.video-prikol {
+    -webkit-box-shadow: -12px 13px 28px 0px rgba(0,0,0,0.44);
+    -moz-box-shadow: -12px 13px 28px 0px rgba(0,0,0,0.44);
+    box-shadow: -12px 13px 28px 0px rgba(0,0,0,0.44);
 }
