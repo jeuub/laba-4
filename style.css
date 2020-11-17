@@ -307,7 +307,7 @@ input[type="radio"]:checked+label {
     margin-top:85px;
 }
 .more ul {
-    display:inline;
+    display:inline-block;
 }
 .pep {
     width:160px;
@@ -328,23 +328,17 @@ input[type="radio"]:checked+label {
 .pep:last-child {
     margin-right:0;
 }
-.name {
-    /* width:120px; */
-    text-align: center;
-    position: relative;
-    left: -100px;
-    bottom: 40px;
-}
+
 .descr {
-    position: absolute;
+    position: relative;
+    display: block;
     top:220px;
     color:white;
     background-color:#4c4c4c;
-    width:145.98px;
-    left:21.7px;
+    width:160px;
     text-align: center;
     transition: .7s;
-    text-align: center;
+    padding-right:20px ;
 }
  .pep:hover  .descr {
     top:162px;
